@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "QR code generator",
+  "description": "This extension generates a QR code based on the currently selected text",
+  "version": "1.0",
+  "browser_action": { 
+    "default_icon": {
+      "16": "icon16.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
